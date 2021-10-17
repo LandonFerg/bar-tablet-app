@@ -1,0 +1,14 @@
+{
+  "name": "bar-tablet-app",
+  "version": "1.0.0",
+  "description": "User controllable app for the automated bar project",
+  "main": "main.js",
+  "author": "",
+  "scripts":{
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.2.0"
+  }
+}
