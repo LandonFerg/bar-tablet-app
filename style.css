@@ -1,7 +1,45 @@
 html{
     background-color: #120e1c;
+    background-image: url(images/bg0.jpg);
 }
 
 body{
     color: white;
+}
+
+#title-banner{
+    text-align: center;
+    font-size: 5vw;
+}
+
+#menu{
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#OR{
+    margin: 0px;
+    font-size: 4em;
+}
+
+.pill-button {
+    display: block;
+    -webkit-app-region: no-drag;
+    background-color: #ddd;
+    border: none;
+    background-color: #ff6b6c;
+    color: black;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 40px auto; /* vertical block padding */
+    cursor: pointer;
+    border-radius: 10vw;
+    font-size: 5vw;
+}
+
+.pill-button:hover {
+    background-color: rgb(41, 19, 41);
 }
