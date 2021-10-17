@@ -1,6 +1,7 @@
 html{
     background-color: #120e1c;
     background-image: url(images/bg0.jpg);
+    background-size: auto;
 }
 
 body{
