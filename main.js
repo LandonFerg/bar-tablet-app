@@ -6,13 +6,13 @@ function createWindow() {
     const win = new BrowserWindow({
         width: 800,
         height: 600,
-        /*autoHideMenuBar: true, // hide menu bar used for debug
+        autoHideMenuBar: true, // hide menu bar used for debug
         titleBarStyle: 'hidden',
         titleBarOverlay: {
             color: '#120e1c',
             symbolColor: '#ffffff'
         },
-        fullscreen: true,*/ // debug
+        fullscreen: true,
         // preload important doc values
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
