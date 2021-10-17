@@ -1,11 +1,12 @@
 html{
     background-color: #120e1c;
-    background-image: url(images/bg0.jpg);
+    background-image: url(../images/bg0.jpg);
     background-size: cover;
 }
 
 body{
     color: white;
+    overflow: hidden; /* Hide scrollbars */
 }
 
 #title-banner{
@@ -48,3 +49,31 @@ body{
 a {
     text-decoration: none;
 }
+
+#back-btn {
+    -webkit-app-region: no-drag;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    background: #000;
+}
+
+#nav-menu{
+    display: inline-block;
+    font-size: 5em;
+}
+
+.page-content {
+    position: relative;
+    padding-bottom: 60px; /* height of footer */
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    padding-bottom: 20px;
+    /* background:#000; */
+}
+
