@@ -12,6 +12,7 @@ function createWindow() {
             color: '#120e1c',
             symbolColor: '#ffffff'
         },
+        fullscreen: true,
         // preload important doc values
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
